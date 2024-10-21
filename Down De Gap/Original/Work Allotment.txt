@@ -1,0 +1,20 @@
+The Business Proposal
+|
+|-> Joshua --> #4
+|-> Jaedyn --> #2, #1
+|-> Caleb --> #5
+|-> Chavez --> #3
+|-> Shania --> #7
+|-> Azari --> #8, #6
+
+The Web Page Mockup
+|
+|-> Joshua
+|-> Caleb
+
+The Presentation
+|
+|-> Chavez
+|-> Azari
+|-> Jaedyn
+|-> Shania
