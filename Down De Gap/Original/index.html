@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Think of a better name than this please :) -->
+        <title> Down De Gap - For Your Delivery Needs - Main Page </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+        <div id = "container">
+            <div id = "navBar">
+                <a href ="index.html"><img class="mainLogo" src="images/logo.png" alt="Down De Gap's Business Logo"/></a>
+                <br>
+                <!-- The Top Part of The Website -->
+                <!-- Insert Links etc. Here-->
+                <div class="topnav">
+                    <a href="index.html"> Home </a>
+                    <a href="restaurantInfo.html"> Restaurants </a>
+                    <a href="order.html"> Order </a>
+                    <a href="plans.html"> Plans </a>
+                    <a href="aboutUs.html"> About Us </a>
+                    
+                    <!--&nbsp; &nbsp;-->
+                    
+                    <!--&nbsp; &nbsp;-->
+                    
+                </div>
+            </div>
+
+            <div id = "header">
+                <!-- The Part of the Website Containing Information about our Business -->
+                <br><br><br><br>
+                <h1 class = "headerH1"> Welcome to <em><span style="color:rgb(226, 218, 102)"> Down De Gap! </span></em></h1>
+            </div>
+
+            <div id = "main">
+                <!-- The Main Part of the Website Containing Most of the Information -->
+                <div id = "mainHome">
+                    <div id="mainLeft">
+                        <h1>Our Mission</h1>
+                        <p>Our mission is to connect YOU, the user, with our network of small restaurants all over the island to make affordable, home cooked food from people like you in your community to the comfort of your home.
+                    <br><br>
+                        To make an order, click here and select a restaurant!</p>
+                    <br>
+                        <form action = "restaurantInfo.html" method = "get">
+                            <button class = "bigButton" type = "submit"> TO ORDER </button>
+                        </form>
+                    <br>
+                        <p> Or select some nearby places below! </p>
+                    </div>
+
+                    <div id = "mainRight">
+                        <img src = "images/mainHome.png"/>
+                        <br><br>
+                    </div>
+                </div>
+                <div id ="mainV2">
+                    <div id="navbarIndex">
+                        <div id="searchBox">
+                            <input type="text" placeholder="Search..">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+
+                        <table style="background-color: white; color: black; text-shadow: none;">
+                            <th style = "text-align:center"> <br> Nearby Places:</th>
+                            <tr>
+                                <td>
+                                    <p font-size="26px"> Closest Restaurant <br> <span style="font-family: helvetica; font-size:15px; font-style: italic; font-weight: lighter;">Restaurant Address <br> Distance Away </span></p> 
+                                </td>
+                                <td>
+                            <br>
+                            <br>
+                                    <form action = "restaurantInfo.html" method = "get">
+                                    <button class = "bigButton" type = "submit"> SELECT </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p font-size="26px"> 2nd Closest Restaurant <br> <span style="font-family: helvetica; font-size:15px; font-style: italic; font-weight: lighter;">Restaurant Address <br> Distance Away </span></p> 
+                                </td>
+                                <td>
+                            <br>
+                            <br>
+                                    <form action = "restaurantInfo.html" method = "get">
+                                    <button class = "bigButton" type = "submit"> SELECT </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p font-size="26px"> 3rd Closest Restaurant <br> <span style="font-family: helvetica; font-size:15px; font-style: italic; font-weight: lighter;">Restaurant Address <br> Distance Away </span></p> 
+                                </td>
+                                <td>
+                            <br>
+                            <br>
+                                    <form action = "restaurantInfo.html" method = "get">
+                                    <button class = "bigButton" type = "submit"> SELECT </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p font-size="26px"> 4th Closest Restaurant <br> <span style="font-family: helvetica; font-size:15px; font-style: italic; font-weight: lighter;">Restaurant Address <br> Distance Away </span></p> 
+                                </td>
+                                <td>
+                            <br>
+                            <br>
+                                    <form action = "restaurantInfo.html" method = "get">
+                                    <button class = "bigButton" type = "submit"> SELECT </button>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p font-size="26px"> 5th Closest Restaurant <br> <span style="font-family: helvetica; font-size:15px; font-style: italic; font-weight: lighter;">Restaurant Address <br> Distance Away </span></p> 
+                                </td>
+                                <td>
+                            <br>
+                            <br>
+                                        <form action = "restaurantInfo.html" method = "get">
+                                        <button class = "bigButton" type = "submit"> SELECT </button>
+                                        </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p font-size="26px"> 6th Closest Restaurant <br> <span style="font-family: helvetica; font-size:15px; font-style: italic; font-weight: lighter;">Restaurant Address <br> Distance Away </span></p> 
+                                </td>
+                                <td>
+                            <br>
+                            <br>
+                                        <form action = "restaurantInfo.html" method = "get">
+                                        <button class = "bigButton" type = "submit"> SELECT </button>
+                                        </form>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id = "map">
+                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-59.65177059173585%2C13.123909790559647%2C-59.61889743804932%2C13.148901600728717&amp;layer=mapnik"></iframe>
+                        <br/>
+                        <h4><a href="https://www.openstreetmap.org/#map=15/13.1364/-59.6353">View Larger Map</a></h4>
+                    </div>
+                </div>
+            <br>
+            </div>
+        
+            <div id = "footerMain">
+                <!-- The Bottom of The Website -->
+                <div id = "footerChild1">
+                    <a href="index.html"><img class="footerLogo" src="images/logo.png" alt="Down De Gap's Business Logo"/></a>
+                    <h2> Down De Gap </h2>
+                    <hr>
+                </div>
+
+                <div id = "footerChild2">
+                    <table class = "footer">
+                        <tr> 
+                            <th> Contact Us </th>
+                            <th> Follow Our Socials </th>
+                            </tr>
+                        <tr>
+                            <td> <span style="color:#8EE4AF">Telephone: </span>(246) 555-5555 </td>
+                            <td><a href=""><img class = "contactUsLogo" src="images/fb-logo.png" alt="Facebook Logo that links to our Facebook Page"/></a></td> 
+                        </tr>
+
+                        <tr>
+                            <td> <span style="color:#8EE4AF">Email: </span> downdegapbusiness@gmail.com </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Think of a better name than this please :) -->
+        <title> Down De Gap - For Your Delivery Needs - Main Page </title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+
+    <body>
+        <div id = "container">
+            <div id = "navBar">
+                <a href ="index.html"><img class="mainLogo" src="images/logo.png" alt="Down De Gap's Business Logo"/></a>
+                <br>
+                <!-- The Top Part of The Website -->
+                <!-- Insert Links etc. Here-->
+                <div class="topnav">
+                    <a href="index.html"> Home </a>
+                    <a href="restaurantInfo.html"> Restaurants </a>
+                    <a href="order.html"> Order </a>
+                    <a href="plans.html"> Plans </a>
+                    <a href="aboutUs.html"> About Us </a>
+                    
+                    <!--&nbsp; &nbsp;-->
+                    
+                    <!--&nbsp; &nbsp;-->
+                    
+                </div>
+            </div>
+
+            <div id = "header">
+                <!-- The Part of the Website Containing Information about our Business -->
+                <br><br><br><br>
+                <h1 class = "headerH1"> Welcome to <em><span style="color:rgb(226, 218, 102)"> Down De Gap! </span></em></h1>
+            </div>
+
+            <div id = "main">
+                <h1 class = "styledOrderHeading"> Order Page - Template</h1>
+            </div>
+
+            <div id = "mainOrder">
+                <!-- The Main Part of the Website Containing Most of the Information -->
+                <form action = "mailto:localbusiness@gmail.com" method = "post" enctype = "text/plain">
+                    <h2> Food Options - Comes with Tossed Salad and Macaroni Salad </h2>
+                    <input type = "checkbox" id = "foodOrder" name = "foodOrder" value = "fishOnly"/> Fish Only - $15
+                <br>
+                    <input type = "checkbox" id = "foodOrder" name = "foodOrder" value = "chickenOnly"/> Chicken Only - $15
+                <br>
+                    <input type = "checkbox" id = "foodOrder" name = "foodOrder" value = "fishAndStarch"/> Fish and Starch - $20
+                <br>
+                    <input type = "checkbox" id = "foodOrder" name = "foodOrder" value = "chickenAndStarch"/> Chicken and Starch - $20
+                <br>
+                    <input type = "checkbox" id = "foodOrder" name = "foodOrder" value = "wrap"/> Chicken Wrap - $20
+                <br>
+                    <h2> Starch Options </h2>
+                    <input type = "radio" id = "starchChoice" name = "starchChoice" value = "pie"/> Macaroni Pie
+                <br>
+                    <input type = "radio" id = "starchChoice" name = "starchChoice" value = "chips"/> Chips
+                <br>
+                    <h2> Delivery Address </h2>
+                    <h3> Either Use The Map to Pin Your Address or Manually Enter It </h3>
+                <br>
+                    <!-- Insert iframe of Google Maps from Joshua -->
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7770.881675560717!2d-59.63416486818816!3d13.13456971483643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c43f0c9193b86d9%3A0x8ae335aa4bf6af02!2sThe%20University%20of%20the%20West%20Indies%20at%20Cave%20Hill%2C%20Barbados!5e0!3m2!1sen!2s!4v1667512604057!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                <br>
+                    <h2><em> OR </em></h2>
+                <br>
+                    <label for = "addressName"> Name </label>
+                <br>
+                    <input class = "mediumBox" type = "text" id = "addressName" name = "addressName">
+                <br><br>
+                    <label for = "addressMain"> Address </label>
+                <br>
+                    <input class = "mediumBox" type = "text" id = "addressMain" name = "addressMain">
+                    <h4><em> Example: Lot 7 Upper Brighton </em></h4>
+                <!--Honourary <br>-->    
+                    <label for = "addressSub"> Apartment, suite, etc. </label>
+                <br>
+                    <input class = "mediumBox" type = "text" id = "addressSub" name = "addressSub">
+                    <h4><em> Example: Third Floor, Room 101 </em></h4>
+                <!--Honourary <br>--> 
+                    <label for = "addressParish"> Parish </label>
+                <br>
+                    <input class = "mediumBox" type = "text" id = "addressParish" name = "addressParish">
+                    <h4><em> Example: St.George </em></h4>
+                <br>
+                    <h2> Special Requests(Optional) </h2>
+                    <p style="font-size: 12pt">If your request costs extra we'll charge you for it without contacting you</p>
+                    <input class = "bigBox" type = "text" id = "specRequest" name = "specRequest" placeholder = "e.g Extra Salad/Additional Starch etc.">
+                <br><br>
+                    <div id = orderButton>
+                        <input class = "bigButton" type = "submit" value = "Place Order">
+                        <input class = "bigButton" type = "reset" value = "Reset">
+                    </div>
+                <br>
+                </form>
+                <br>
+            </div>
+            
+            <div id = "footerMain">
+                <!-- The Bottom of The Website -->
+                <div id = "footerChild1">
+                    <a href="index.html"><img class="footerLogo" src="images/logo.png" alt="Down De Gap's Business Logo"/></a>
+                    <h2> Down De Gap </h2>
+                    <hr>
+                </div>
+
+                <div id = "footerChild2">
+                    <table class = "footer">
+                        <tr> 
+                            <th> Contact Us </th>
+                            <th> Follow Our Socials </th>
+                            </tr>
+                        <tr>
+                            <td> <span style="color:#8EE4AF">Telephone: </span>(246) 555-5555 </td>
+                            <td><a href=""><img class = "contactUsLogo" src="images/fb-logo.png" alt="Facebook Logo that links to our Facebook Page"/></a></td> 
+                        </tr>
+
+                        <tr>
+                            <td> <span style="color:#8EE4AF">Email: </span> downdegapbusiness@gmail.com </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

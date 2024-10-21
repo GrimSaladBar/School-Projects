@@ -1,0 +1,628 @@
+/****************/
+/******DIVS******/
+/****************/
+#container
+{
+    height:auto;
+    width:100%;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+#navBar
+{
+    position:fixed;
+    font-size:20px;
+    text-align:center;
+    background-color:#05386B;
+    width:100%;
+    overflow:hidden;
+}
+
+#header
+{
+    /* Font - PS Mont Heavy is free for commercial use */
+    font-family:"Mont Heavy";
+    color:#EDF5E1;
+    text-align:center;
+
+    /* Background Image */
+    background-image:url(images/bajan-food-BG1.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    padding:2px;
+}
+
+#main
+{
+    background-color:#5CDB95;
+    color:#EDF5E1;
+    width:auto;
+    padding:2px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:center;
+    text-shadow: 2px 2px black;
+}
+
+/* INDEX.HTML DIVS */
+
+#mainHome
+{
+    width:100%;
+    text-shadow: 2px 2px black;
+}
+
+    #mainHome p
+    {
+        font-size:clamp(14pt,2vw,18pt);
+    }
+
+    #mainLeft
+    {
+        max-width:50%;
+        width:49%;
+        padding:5px;
+        float:left;
+    }
+
+    #mainLeft button
+    {
+        background-color: #05386B;
+        color: white;
+        padding: 10px;
+        align-self: center;
+        border-radius: 10px;
+    }
+
+    #mainLeft button:hover
+    {
+        background-color:rgb(40, 72, 179);
+        text-decoration:underline;
+    }
+
+    #mainRight
+    {
+        width:49%;
+        float:right;
+    }
+
+    #mainRight img
+    {
+        width:100%;
+    }
+
+    #mainV2
+    {
+        background-color:#5CDB95;
+        text-shadow: 1px 2px black;
+        color:#EDF5E1;
+        width:100%;
+        padding:2px;
+        padding-left:20px;
+        padding-right:20px;
+        text-align:center;
+        justify-content:center;
+        display:flex;
+        font-size:clamp(12pt,1.7vw,16pt);
+    }
+
+    #navbarIndex
+    {
+        max-width: 40%;
+        border: 1px solid black;
+    }
+
+    #searchBox
+    {
+        display: flex;
+    }
+
+    #searchBox input[type=text]
+    {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+
+    #searchBox button
+    {
+        float: right;
+        width: 20%;
+        /*padding: 6px;*/
+        background: lightgrey;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        cursor: pointer;
+    }
+
+    #searchBox button:hover
+    {
+        background: grey;
+    }
+
+    #navbar td
+    {
+        padding: 10px;
+        border-bottom: 1px solid grey;
+    }
+
+    #navbar th
+    {
+        padding: 10px;
+    }
+
+    #map h4
+    {
+        text-shadow:2px 2px black;
+    }
+
+/* ORDER.HTML DIVS */
+
+#mainOrder
+{
+    background-color:#5CDB95;
+    color:#EDF5E1;
+    width:auto;
+    padding:2px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+    #mainOrder form
+    {
+        font-size:18pt;
+        text-shadow: 2px 2px black;
+        text-align:center;
+        justify-content:center;
+    }
+
+    #mainOrder h3
+    {
+        text-align:center;
+        font-size:20pt;
+        text-shadow:2px 2px #05386B;
+    }
+
+    #mainOrder h4
+    {
+        text-align:center;
+        font-size:12pt;
+        text-shadow:2px 2px #05386B;
+    }
+
+    #mainOrder h2
+    {
+        text-align:center;
+        font-size:26pt;
+        text-shadow:2px 2px #05386B;
+    }
+
+/* PLANS.HTML DIVS */
+
+#plan1
+{
+    height:auto;
+    width:49%;
+    float:left;
+    background-color: #8EE4AF;
+    text-shadow: 2px 2px #05386B;
+}
+
+#plan2
+{
+    height:auto;
+    width:49%;
+    float:right;
+    background-color:#379683;
+    text-shadow: 2px 2px #05386B;
+}
+
+/* RESTAURANTINFO.HTML DIVS */
+
+#mainRestaurant
+{
+    background-color:#5CDB95;
+    color:#EDF5E1;
+    width:auto;
+    padding:2px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+    #restaurantList td.description
+    {
+        width: 80%;
+    }
+
+    #restaurantList tr
+    {
+        border: 1px solid black;
+        border-spacing: 0;
+        border-collapse: separate;
+        border-radius: 10px;
+        background-color: #05386B;
+    }
+
+    #restaurantList td
+    {
+        border: 1px solid black;
+        border-radius: 10px;
+        border-collapse: collapse;
+    }
+
+    #restaurantList img
+    {
+        max-width: 100%
+    }
+
+    #see-more
+    {
+        text-align: center;
+    }
+
+    #see-more button
+    {
+        background-color: #05386B;
+        color: #EDF5E1;
+        font-family:"Mont Heavy";
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 26px;
+    }
+
+    #see-more button:hover
+    {
+        background-color:rgb(40, 72, 179);
+        text-decoration:underline;
+    }
+
+/* ABOUT US.HTML DIVS */
+#main
+{
+    background-color:#5CDB95;
+    text-shadow:2px 2px black;
+    color:#EDF5E1;
+    width:auto;
+    padding:2px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:center;
+}
+
+/* FOOTER DIVS */
+
+#footerMain
+{
+    background-color:#05386B;
+    color:#EDF5E1;
+    font-size:clamp(12pt,1.7vw,18pt);
+    text-align:center;
+    height:auto;
+    padding:2px;
+    clear:both;
+    overflow:auto;
+}
+
+#footerChild1
+{
+    position:inherit;
+}
+
+#footerChild2
+{
+    position:inherit;
+    width:100%;
+    float:left;
+}
+
+/* DIVS THAT I DON'T REMEMBER WHERE THEY BELONG */
+
+#orderButton
+{
+    text-align:center;
+}
+
+/***************/
+/****CLASSES****/
+/***************/
+img.mainLogo
+{
+    float:clear;
+    height:auto;
+    align-items: center;
+    width:7vw;
+    min-width:100px;
+    max-width:144px;
+}
+
+img.footerLogo
+{
+    float:clear;
+    height:auto;
+    width:144px;
+    padding:10px;
+}
+
+img.contactUsLogo
+{
+    float:clear;
+    height:36px;
+    width:45px;
+    padding:10px;
+}
+
+p.header
+{
+    text-shadow: 1px 1px 1px #EDF5E1;;
+}
+
+h1.headerH1
+{
+    font-size:6vw;
+    padding-bottom:200px;
+    padding-top:100px;
+}
+
+h1.styledOrderHeading
+{
+    text-align:center;
+    font-size:36pt;
+    padding:20px;
+}
+
+h1.styledMainHeading
+{
+    text-align:center;
+    font-size:28pt;
+    padding:20px;
+}
+
+.textShadowBlue
+{
+    text-shadow:2px 2px #05386B;
+}
+
+.textShadowBlack
+{
+    text-shadow: 2px 2px black;
+}
+
+.aboutUsImg
+{
+    width:350px;
+    height:320px;
+}
+
+td.navbar
+{
+    padding:10px;
+    font-size:20pt;
+    text-align:left;
+}
+
+table.footer
+{
+    width:100%;
+    text-align:center;
+    align-items: center;
+}
+
+.tableCenter
+{
+    text-align:center;
+}
+
+/* Credit to W3 Schools */
+.topnav
+{
+    overflow: hidden;
+    background-color: #05386B;
+    align-items:center;
+}
+
+.topnav a
+{
+    color: #EDF5E1;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size:clamp(14pt,2vw,22pt);
+}
+
+.topnav a:hover
+{
+    background-color:#379683;
+    opacity:1;
+}
+
+.mediumBox
+{
+    height:40px;
+    width:20%;
+    font-family:"Mont Heavy";
+    text-align:center;
+    color:rgb(0,0,0,0.6)
+}
+
+.bigBox
+{
+    height:100px;
+    width:50%;
+    font-family:"Mont Heavy";
+    text-align:center;
+    color:rgb(0,0,0,0.6)
+}
+
+.bigBox:hover
+{
+    border: 2px solid black;
+}
+
+.bigButton
+{
+    font-family:"Mont Heavy";
+    height:60px;
+    width:110px;
+    font-size:11pt;
+}
+
+.bigButton:hover
+{
+    border: 2px solid black;
+}
+
+.planButton
+{
+    font-family:"Mont Heavy";
+    height:60px;
+    width:25%;
+    font-size:13pt;
+    background-color:#05386B;
+    color:#EDF5E1;
+}
+
+.planButton:hover
+{
+    text-decoration:underline;
+    background-color:rgb(40, 72, 179);
+    color:#EDF5E1;
+    border: 2px solid black;
+}
+
+.image
+{
+    width: 60%;
+}
+
+.text
+{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 15px;
+    width: 30%;
+    text-align:center;
+}
+
+.order button
+{
+    background-color: #5CDB95;
+    color: #EDF5E1;
+    padding: 13px;
+    border-radius: 10px;
+    text-shadow: 2px 2px #379683;
+    font-size:26px;
+}
+
+/* HTML Elements */
+
+/* Mont Heavy is a custom font that is free for commercial use */
+@font-face
+{
+    font-family: "Mont Heavy";
+    src: url(fonts/Mont-Heavy.otf);
+}
+
+html,body
+{
+    height:100%;
+    margin:0 auto;
+    font-family:"Mont Heavy";
+}
+
+
+h2,h3,h4
+{
+    text-shadow: 2px 2px #379683;
+}
+
+h1
+{
+    text-shadow: 2px 2px #05386B;
+    text-align:center;
+    padding:20px;
+}
+
+h2
+{
+    font-size:28px;
+}
+
+h3
+{
+    font-size:24px;
+}
+
+p
+{
+    font-size:20px;
+}
+
+table, tr, td
+{
+    table-layout:fixed;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ul,li
+{
+    margin:14px;
+    font-size:20px;
+    list-style:none;
+    text-shadow: 2px 2px #379683;
+}
+
+a:hover
+{
+    opacity:0.6;
+}
+
+a:link
+{
+    color:#EDF5E1;
+    text-decoration: none;
+}
+  
+a:visited
+{
+    color:#EDF5E1;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active 
+{
+    color: #EDF5E1;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+td.logo
+{
+    width: 10%;
+    background-color: white;
+}
+
+td.description
+{
+    padding-left: 20px;
+}
+
+td.order
+{
+    text-align: center;
+}
+
+iframe
+{
+    width:1000px;
+    height:600px;
+    border:1px solid black;
+}
