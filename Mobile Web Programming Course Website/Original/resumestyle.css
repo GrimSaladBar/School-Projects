@@ -1,0 +1,18 @@
+body
+{
+    margin: 0;
+    border: 0;
+};
+
+#container
+{
+    height:auto;
+    width:100%;
+    font-family:Verdana;
+    overflow-x: auto;
+}
+
+#main
+{
+    margin: 40px;
+};

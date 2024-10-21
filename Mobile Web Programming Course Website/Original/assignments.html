@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <title> SWEN1005 - Assignments </title>
+    </head>
+
+    <body onpageshow = "displayAccess()">
+        <header>
+            <div class = row>
+                <div class = "col-m-12">
+                    <img class = "logo" src = "img/uwi-logo.png" onclick="askFirst()">
+                    <hr>
+                </div>
+            </div>
+        </header>
+
+        <nav>
+            <div class = "row">
+                <div class = "col-m-6">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="index.html">Home</a>
+                        <a href="content.html">Course Content</a>
+                        <a href="lectures.html"> &#10551; Lectures </a>
+                        <a href="onlineSess.html"> &#10551; Online & Recorded Sessions </a>
+                        <a href="assignments.html"> &#10551; Assignments </a>
+                        <a href="schedule.html"> &#10551; Assessment Schedule </a>
+                        <a href="labs.html"> &#10551; Course Labs </a>
+                        <a href="quiz.html"> &#10551; Quizzes </a>
+                      </div>
+                      
+                      <!-- Use any element to open the sidenav -->
+                      <button onclick="openNav()"> Navigation Menu </button>
+                </div>
+                <div class = "col-m-6">
+                    <a href = "content.html"><button> Go Back </button></a>
+                </div>
+            </div>
+        </nav>
+
+        <main onclick="closeNav()">
+            <div class = "row">
+                <div class = "col-m-12">
+                    <hr>
+                    <h2 class = "centered"> Assignments </h2>
+                    <hr>
+                    <table>
+                        <tr><a href="https://pdfhost.io/v/CVZkbJmxS_Assigment_1"><button>Assignment 1</button></a></tr>
+                        <tr><a href="https://pdfhost.io/v/yqbyc0o4n_Assigment_2_SWEN2023"><button>Assignment 2</button></a></tr>
+                        <tr><a href="https://pdfhost.io/v/QGOIdPyg~_Assigment_3_Report"><button>Assignment 3</button></a></tr>
+                    </table>
+                    <hr>
+                    <h2 class = "centered"> Assignment Submission Links </h2>
+                    <hr>
+                    <table>
+                        <tr><a href="https://shared.tle.courses.open.uwi.edu/mod/assign/view.php?id=20588"><button>Assignment 1 - Submission Link</button></a></tr>
+                        <tr><a href="https://shared.tle.courses.open.uwi.edu/mod/assign/view.php?id=21144"><button>Assignment 2 - Submission Link</button></a></tr>
+                        <tr><a href="https://shared.tle.courses.open.uwi.edu/mod/assign/view.php?id=21145"><button>Assignment 3 - Submission Link</button></a></tr>
+                    </table>
+                    <hr>
+                    <h2 class = "centered"> Assignment Example </h2>
+                    <hr>
+                    <table>
+                        <tr><a href="example.html"><button>Assignment 1 Example</button></a></tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+
+        <footer onclick="closeNav()">
+            <div class = "col-m-12 footer">
+                <p class = "centered"> ©2023 UWI  All Rights Reserved.  </p>
+                <div id = "access" class = "centered"></div>
+            </div>
+        </footer>
+    </body>
+</html>

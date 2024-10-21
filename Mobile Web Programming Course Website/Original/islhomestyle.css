@@ -1,0 +1,52 @@
+body
+{
+    background-color:yellow;
+    font-family:'Times New Roman';
+    font-size:13pt;
+}
+
+table
+{
+    font-family:Arial;
+    text-align:center;
+}
+
+tr,td
+{
+    width:25%;
+}
+
+table, th, td
+{
+    
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.table
+{
+    overflow-x:auto;
+}
+
+.table img
+{
+    height:80%;
+    width:80%;
+}
+
+.headerImg
+{
+    text-align:center;
+}
+
+.headerImg img
+{
+    height:40%;
+    width:40%;
+}
+
+#container
+{
+    display: flex;
+    flex-direction:column;
+}
