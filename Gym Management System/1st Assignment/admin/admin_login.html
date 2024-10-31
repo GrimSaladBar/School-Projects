@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Administrator Login </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style.css">
+		<script src="../script.js"></script>
+    </head>
+
+    <body class = "bodyContainer" onload="loadData(); removeLogin()">
+		<div class = "headerContainer">
+			<div class = "loginLeftMainDiv">
+				<div class = "dropdownMenu">
+					<span><img class = "dropdownImg" src="../dropdown.png"/><br></span>
+					<div class = "dropdownItems">
+						<p> Change Location </p>
+						<p> Gym Schedule </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "loginMainDiv">
+				<h1> The Fitness Universe </h1>
+				<h2> Live Your Best Life </h2>
+			</div>
+			
+			<div class = "loginRightMainDiv">
+				<a href="index.html"><img class = "logoImg" src="../logo.png"/></a>
+			</div>
+		</div>
+
+        <div class = "loginFormDiv">	
+			<p class = "loginP"> Gym Manager Login </p>
+			<p id = "emailFormatError"> Email Format is Incorrect </p>
+			<p id = "passwdFormatError">Password Format is Incorrect </p>
+			<p id = "invalidUserError"> Invalid Email or Password </p>
+			<form onsubmit="submitFormManager(event)">
+				<input type = "hidden" id= "employee" name="employee" value="manager"/>
+				<label for="managerEmail"> Email: </label>
+				<input type="text" id="managerEmail" name="managerEmail">
+				<br><br>
+				<label for="trainerPasswd"> Password: </label>
+				<input class = "inputText" type="password" id="managerPasswd" name="managerPasswd">
+				<br><br>
+				<input class = "submitButton" type = "submit" value="Log In">
+				<a href = "forgot_manager.html"><p style = "margin:0;font-size:11px;"> Recover Password </p></a>
+			</form>
+		</div>
+    </body>
+</html>

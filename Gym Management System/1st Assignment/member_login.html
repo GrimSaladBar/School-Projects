@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Member Login </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+    </head>
+
+    <body class = "bodyContainer" onload="loadData(); removeLogin()">
+		<div class = "headerContainer">
+			<div class = "loginLeftMainDiv">
+				<div class = "dropdownMenu">
+					<span><img class = "dropdownImg" src="dropdown.png"/><br></span>
+					<div class = "dropdownItems">
+						<p> View Schedule </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "loginMainDiv">
+				<h1> The Fitness Universe </h1>
+				<h2> Live Your Best Life </h2>
+			</div>
+			
+			<div class = "loginRightMainDiv">
+				<a href="index.html"><img class = "logoImg" src="logo.png"/></a>
+			</div>
+		</div>
+
+        <div class = "loginFormDiv">	
+			<p class = "loginP"> Member Login </p>
+			<p id = "usernameFormatError"> Username Format is Incorrect </p>
+			<p id = "passwdFormatError">Password Format is Incorrect </p>
+			<p id = "invalidUserError"> Invalid Member ID or Password </p>
+
+			<form onsubmit="submitFormMember(event)">
+				<label for="memberID"> Membership #: </label>
+				<input type="text" id="memberID" name="memberID">
+				<br><br>
+				<label for="memberPasswd"> Password: </label>
+				<input class = "inputText" type="password" id="memberPasswd" name="memberPasswd">
+				<br><br>
+				<input class = "submitButton" type = "submit" value="Log In">
+				<a href = ""><p class = "recoverP"> Recover Password </p></a>
+			</form>
+		</div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Trainer Console - Schedule </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+    </head>
+
+    <body class = "bodyContainer" onload="checkLogin(); displayCurrentUser()">
+		<div class = "headerContainer">
+			<div class = "loginLeftMainDiv">
+				<div class = "dropdownMenu">
+					<span><img class = "dropdownImg" src="dropdown.png"/><br></span>
+					<div class = "dropdownItems">
+                        <p> Gym Schedule </p>
+						<p onclick="signOut()"> Sign Out </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "loginMainDiv">
+				<h1> The Fitness Universe </h1>
+				<h2> Live Your Best Life </h2>
+			</div>
+			
+			<div class = "loginRightMainDiv">
+				<a href="index.html"><img class = "logoImg" src="logo.png"/></a>
+			</div>
+		</div>
+        <div class = 'displayUserInfo'>
+            <p id = loginName> </p>
+            <p id = loginID> </p>
+        </div>
+        <br>
+        <div>
+            <table style = "text-align:left">
+                <tr>
+                    <td><a href="trainer_client.html"><button class = "consoleButton"> Clients </button></a></td>
+                </tr>
+                <tr>
+					<td><a href="trainer_schedule.html"><button class = "consoleButton currentPage"> Training Schedule </button></a></td>
+                </tr>
+                <tr>
+                    <td><a href=""><button class="consoleButton"> Meal Plans </button></a></td>
+                </tr>
+                <tr>
+					<td><a href=""><button class = "consoleButton"> My Account </button></a></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

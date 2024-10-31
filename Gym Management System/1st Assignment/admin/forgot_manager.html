@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Manager Forgot_Password Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style.css">
+        <script src="../script.js"></script>
+    </head>
+
+    <body class = "bodyContainer" onload="loadData(); removeLogin()">
+        <div class = "forgotHeaderContainer">
+            <div class = "forgotLeftMainDiv">
+                <h1> The Fitness Universe </h1>
+                <h2> Live Your Best Life </h2>
+            </div>
+        
+            <div class = "forgotRightMainDiv">
+                <a href="index.html"><img class = "logoImg" src="../logo.png"/></a>
+            </div>        
+        </div>
+        <div class = "forgotFormDiv">
+            <form onsubmit="findLostPassword(event)">
+                <input type="hidden" id= "employee" name="employee" value="manager"/>
+                <p> Enter the email address attached to your account to recover your password </p>
+                <input class = "inputText" type="text" id="forgotManager" name="forgetManager"/>
+                <br/><br/>
+                <input class = "submitButton" type="submit" value="Recover"/>
+            </form>
+        </div>   
+    </body>
+</html>
